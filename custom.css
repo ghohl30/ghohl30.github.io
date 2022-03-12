@@ -1,24 +1,23 @@
-/* @import url('https://fonts.googleapis.com/css?family=Kavoon:400'); */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap'); */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=EB+Garamond&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,700;1,400&family=EB+Garamond&display=swap');
 /*18px*/
 html {font-size: 112.5%;}
 
-/*14px*/
-/* html {font-size: 87.5%;}  */
-
-/*16px*/
-/* html {font-size: 100%;} */
 
 body {
-  background: white;
   font-family: 'Arimo', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.75;
-  color: #000000;
+
+  background: rgba(199, 189, 179, 0.7);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  max-width: 1000px;
+  margin: auto;
 }
 
 p {
