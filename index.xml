@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Mar 2022 20:38:13 +0100</lastBuildDate><atom:link href="https://ghohl30.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bludenz Trip</title>
+      <link>https://ghohl30.github.io/blog/bludenz-trip/</link>
+      <pubDate>Fri, 17 Mar 2023 17:18:24 +0100</pubDate>
+      
+      <guid>https://ghohl30.github.io/blog/bludenz-trip/</guid>
+      <description>Last week, I impulsively decided to treat myself with an overnight wellness trip to Austria. The previous weeks had been quite rough, and I had just received another paycheck, so I thought it would be the prefect opportunity to get some fresh air. I did not really build this blog to create another unnecessary travel blog. But since I haven&amp;rsquo;t found the time to post about a more serious topic, this will maybe help me get started.</description>
+    </item>
+    
+    <item>
       <title>Web journey so far</title>
       <link>https://ghohl30.github.io/blog/vueexperience/</link>
       <pubDate>Wed, 15 Jun 2022 07:44:57 +0200</pubDate>
@@ -32,9 +41,9 @@ From python to the web After diving deeper and deeper into the python world thro
       <pubDate>Sat, 05 Mar 2022 17:40:52 +0100</pubDate>
       
       <guid>https://ghohl30.github.io/pages/cv/</guid>
-      <description>-- Education Physics Msc. 2020-present ETH Zurich, Switzerland  Physics Bsc. 2016-2020 ETH Zurich, Switzerland Semester project at Institute of Micro- and Nanosystems:
-Improvement of convergence and computational efficiency of self-consistent charge calculations in carbon nanotube FETs  Gymnasium 2007-2015 Europagymnasium, Klagenfurt Matura: 1.0
- Projects Data Science/Machine learning projects 2018-present (Python/sklearn/Keras/Tensorflow/pytorch) Over the course of my studies I attended machine learning and data science courses that required project work.</description>
+      <description>Education Physics Msc. 2020-present ETH Zurich, Switzerland Physics Bsc. 2016-2020 ETH Zurich, Switzerland Semester project at Institute of Micro- and Nanosystems:
+Improvement of convergence and computational efficiency of self-consistent charge calculations in carbon nanotube FETs Gymnasium 2007-2015 Europagymnasium, Klagenfurt Matura: 1.0
+Projects Data Science/Machine learning projects 2018-present (Python/sklearn/Keras/Tensorflow/pytorch) Over the course of my studies I attended machine learning and data science courses that required project work. In these projects I learned a wide variety of skills.</description>
     </item>
     
   </channel>
