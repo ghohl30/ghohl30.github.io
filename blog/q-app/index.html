@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ghohl30.github.io/custom.css">
+
+
+    <meta property="og:title" content="Building q-app: A Real-time Queue Management System with Vue.js and Firebase" />
+<meta property="og:description" content="As someone who&rsquo;s been passionate about creating my own applications, I&rsquo;ve always been on the lookout for exciting projects to learn and grow my skills. My latest project, q-app.ch, is a free, easy-to-use, real-time queue management system that utilizes QR codes to streamline waiting lines at various venues. In this blog post, I&rsquo;ll delve into why I decided to pursue this project, the background of previous implementations, and the technical details that went into building q-app." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ghohl30.github.io/blog/q-app/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-03-20T13:40:39+01:00" />
+<meta property="article:modified_time" content="2023-03-20T13:40:39+01:00" />
+
+
+    <title>Building q-app: A Real-time Queue Management System with Vue.js and Firebase</title>
+    <style media="screen">
+      .portrait {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+      
+
+strong {
+  color: #A6756A;
+  font-weight: 700;
+}
+
+.main-content {
+  font-weight: 400;
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+}
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="main">
+      <div>
+        <div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://ghohl30.github.io">Gregor Hohl</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://ghohl30.github.io">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://ghohl30.github.io/blog">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://ghohl30.github.io/pages/cv">CV</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+        </div>
+        <div class="row p-3">
+          <div class="col-sm-2"></div>
+          <div class="col-md-8 main-content">
+  <h1>Building q-app: A Real-time Queue Management System with Vue.js and Firebase</h1>
+  <p><img src="/img/q-app-home.png" alt="q-app home"></p>
+<p>As someone who&rsquo;s been passionate about creating my own applications, I&rsquo;ve always been on the lookout for exciting projects to learn and grow my skills. My latest project, q-app.ch, is a free, easy-to-use, real-time queue management system that utilizes QR codes to streamline waiting lines at various venues. In this blog post, I&rsquo;ll delve into why I decided to pursue this project, the background of previous implementations, and the technical details that went into building <a href="https://q-app.ch" target="_blank">q-app.ch</a>.</p>
+<h2 id="1--the-motivation-behind-q-appch">1.  The motivation behind q-app.ch</h2>
+<p>Two main factors motivated me to work on q-app.ch. First, I wanted to learn a frontend JavaScript framework, and Vue.js seemed like a perfect fit for my needs. Second, I&rsquo;ve experienced the frustration of poorly managed queues in various places, and I wanted to provide a free, user-friendly alternative to help businesses manage waiting lines more effectively.</p>
+<p>## 2.  Background: From Django to Vue.js</p>
+<p>Before diving into Vue.js, I experimented with various frameworks, as I mentioned in my previous blog post about <a href="https://ghohl30.github.io/blog/vueexperience/">my web development journey</a>. In fact, I had already built a version of q-app using Django. However, being new to web development at that time, I realized there were many areas for improvement, especially in the design.</p>
+<p>Here&rsquo;s a brief overview of how q-app.ch works:</p>
+<ul>
+<li>Users sign up and create queues for their businesses.</li>
+<li>A unique QR code is generated for each queue and can be printed or displayed at the venue.</li>
+<li>When customers scan the QR code, they are assigned a ticket number and informed about their current position in the queue.</li>
+<li>Queue managers can advance the queue within the web app and even create tickets for customers without smartphones.</li>
+</ul>
+<h2 id="3--technical-details-vuejs-and-firebase">3.  Technical details: Vue.js and Firebase</h2>
+<p><img src="/img/q-app-manage.png" alt="q-app manage"></p>
+<p>For q-app.ch, I chose Vue.js as the frontend framework because of its great reviews and documentation.</p>
+<p>On the backend, I used Google Firebase to handle user authentication and host a NoSQL database (Firestore). In my previous Django implementation, clients had to repeatedly query the backend (e.g., every second) to receive updates about the state of the queue. By switching to Firestore, I was able to leverage its built-in real-time features (WebSockets) to provide a seamless, real-time experience for both queue managers and customers.</p>
+<p>Conclusion</p>
+<p>Building q-app.ch has been an enriching learning experience for me. Not only did I get to explore the potential of Vue.js and Firebase, but I also developed a practical solution for managing queues effectively. I look forward to working on more projects like this in the future.</p>
+<p>If you have any questions or suggestions about q-app.ch or my experience building it, please feel free to reach out to me directly. Your feedback is always appreciated!</p>
+
+</div>
+          <div class="col-sm-2"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer py-2">
+      <div class="d-flex ps-3">
+        <div class="ms-auto pe-3">
+          <span>Mai 2022</span>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

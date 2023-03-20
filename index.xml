@@ -8,6 +8,24 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Mar 2022 20:38:13 +0100</lastBuildDate><atom:link href="https://ghohl30.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rapid Development with No-Code: Reimagining Q-App with Bubble.io</title>
+      <link>https://ghohl30.github.io/blog/qapp-bubbleio/</link>
+      <pubDate>Mon, 20 Mar 2023 16:38:03 +0100</pubDate>
+      
+      <guid>https://ghohl30.github.io/blog/qapp-bubbleio/</guid>
+      <description>No-code platforms, such as Bubble.io, have transformed the world of application development, enabling individuals—even those without coding experience—to create solutions to everyday problems with ease. These tools support quick MVP creation and fast iterations for testing new ideas, democratizing innovation. With this in mind, I recently reimplemented my queue management system, q-app.ch, using Bubble.io, and I&amp;rsquo;m eager to share how this no-code platform streamlined the development process and brought q-app to life faster than ever.</description>
+    </item>
+    
+    <item>
+      <title>Building q-app: A Real-time Queue Management System with Vue.js and Firebase</title>
+      <link>https://ghohl30.github.io/blog/q-app/</link>
+      <pubDate>Mon, 20 Mar 2023 13:40:39 +0100</pubDate>
+      
+      <guid>https://ghohl30.github.io/blog/q-app/</guid>
+      <description>As someone who&amp;rsquo;s been passionate about creating my own applications, I&amp;rsquo;ve always been on the lookout for exciting projects to learn and grow my skills. My latest project, q-app.ch, is a free, easy-to-use, real-time queue management system that utilizes QR codes to streamline waiting lines at various venues. In this blog post, I&amp;rsquo;ll delve into why I decided to pursue this project, the background of previous implementations, and the technical details that went into building q-app.</description>
+    </item>
+    
+    <item>
       <title>Bludenz Trip</title>
       <link>https://ghohl30.github.io/blog/bludenz-trip/</link>
       <pubDate>Fri, 17 Mar 2023 17:18:24 +0100</pubDate>
@@ -41,7 +59,7 @@ From python to the web After diving deeper and deeper into the python world thro
       <pubDate>Sat, 05 Mar 2022 17:40:52 +0100</pubDate>
       
       <guid>https://ghohl30.github.io/pages/cv/</guid>
-      <description>Education Physics Msc. 2020-present ETH Zurich, Switzerland Physics Bsc. 2016-2020 ETH Zurich, Switzerland Semester project at Institute of Micro- and Nanosystems:
+      <description>Education Physics Msc. 2020-2022 ETH Zurich, Switzerland Physics Bsc. 2016-2020 ETH Zurich, Switzerland Semester project at Institute of Micro- and Nanosystems:
 Improvement of convergence and computational efficiency of self-consistent charge calculations in carbon nanotube FETs Gymnasium 2007-2015 Europagymnasium, Klagenfurt Matura: 1.0
 Projects Data Science/Machine learning projects 2018-present (Python/sklearn/Keras/Tensorflow/pytorch) Over the course of my studies I attended machine learning and data science courses that required project work. In these projects I learned a wide variety of skills.</description>
     </item>
