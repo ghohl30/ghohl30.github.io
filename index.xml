@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Mar 2022 20:38:13 +0100</lastBuildDate><atom:link href="https://ghohl30.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Personal Projects</title>
+      <link>https://ghohl30.github.io/pages/projects/</link>
+      <pubDate>Tue, 04 Apr 2023 21:16:56 +0200</pubDate>
+      
+      <guid>https://ghohl30.github.io/pages/projects/</guid>
+      <description> Python implementation of the board game Hive q-app: A queue management system. I actually implemented this multiple times, to learn different frameworks: q-app with Django q-app with Vue&amp;#43;Firebase q-app with bubble.io Blog posts: bubble.io Vue&amp;#43;Firebase Travel site and blog: Travel site Blog </description>
+    </item>
+    
+    <item>
       <title>Creating a Hivemind</title>
       <link>https://ghohl30.github.io/blog/hivemind/</link>
       <pubDate>Mon, 03 Apr 2023 16:11:09 +0200</pubDate>
